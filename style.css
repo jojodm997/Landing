@@ -1,0 +1,40 @@
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto;
+}
+
+.header {
+  height: 72px;
+  background: #1f2937;
+  display: flex;
+  padding: 8px;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.pop {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 16px;
+}
