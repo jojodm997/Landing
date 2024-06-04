@@ -10,7 +10,7 @@ body {
   height: 72px;
   background: #1f2937;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 8px;
 }
 
@@ -39,5 +39,5 @@ ul {
   margin: 0;
   padding: 0;
   display: flex;
-  gap: 16px;
+  gap: 50px;
 }
