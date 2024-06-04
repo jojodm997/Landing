@@ -3,12 +3,14 @@ body {
   display: flex;
   flex-direction: column;
   font-family: Roboto;
+  margin: 0;
 }
 
 .header {
   height: 72px;
   background: #1f2937;
   display: flex;
+  justify-content: space-between;
   padding: 8px;
 }
 
@@ -17,6 +19,7 @@ body {
   justify-content: flex-start;
   font-size: 24px;
   color: #f9faf8;
+  align-items: center;
 }
 
 .pop {
