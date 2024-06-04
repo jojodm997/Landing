@@ -1,14 +1,28 @@
 body {
   height: 100vh;
-  display: flex;
-  flex-direction: column;
   font-family: Roboto;
   margin: 0;
 }
 
+.background1 {
+  background: #1f2937;
+}
+
+img.popop {
+  border-radius: 45%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.text {
+  margin: 20px;
+}
+
 .header {
   height: 72px;
-  background: #1f2937;
   display: flex;
   justify-content: space-around;
   padding: 8px;
@@ -40,4 +54,34 @@ ul {
   padding: 0;
   display: flex;
   gap: 50px;
+}
+
+.hero {
+  margin: 80px;
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+}
+
+.big {
+  font-size: 48px;
+  color: #f9faf8;
+}
+
+.small {
+  color: #e5e7eb;
+}
+
+button {
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+button.sign {
+  background: royalblue;
+  border: 1px solid royalblue;
+  color: white;
 }
