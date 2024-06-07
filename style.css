@@ -28,14 +28,6 @@ img.popop {
   padding: 8px;
 }
 
-.logo {
-  display: flex;
-  justify-content: flex-start;
-  font-size: 24px;
-  color: #f9faf8;
-  align-items: center;
-}
-
 .pop {
   display: flex;
   align-items: center;
@@ -84,4 +76,44 @@ button.sign {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
+}
+
+.ten {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.textd {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.box {
+  border: 6px solid #3882f6;
+  border-radius: 11px;
+  width: 200px;
+  height: 200px;
+}
+
+.textt {
+  text-align: center;
+  font-style: italic;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  background-color: #e5e7eb;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  margin: 50px;
 }
