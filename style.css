@@ -83,6 +83,7 @@ button.sign {
   justify-content: center;
   align-items: center;
   gap: 50px;
+  padding: 32px;
 }
 
 .textd {
@@ -99,9 +100,14 @@ button.sign {
   height: 200px;
 }
 
-.textt {
+.den {
+  max-width: 200px;
+}
+
+.cen {
   text-align: center;
   font-style: italic;
+  white-space: normal;
 }
 
 .section {
@@ -110,10 +116,17 @@ button.sign {
   justify-content: center;
   margin: 0;
   background-color: #e5e7eb;
+  padding: 72px;
 }
 
 .quote {
   font-size: 36px;
   font-style: italic;
-  margin: 50px;
+  margin: 70px 50px 50px 50px;
+}
+
+.auth {
+  text-align: end;
+  font-weight: bold;
+  font-style: normal;
 }
