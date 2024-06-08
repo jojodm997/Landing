@@ -83,7 +83,7 @@ button.sign {
   justify-content: center;
   align-items: center;
   gap: 50px;
-  padding: 32px;
+  padding: 50px;
 }
 
 .textd {
@@ -116,7 +116,7 @@ button.sign {
   justify-content: center;
   margin: 0;
   background-color: #e5e7eb;
-  padding: 72px;
+  padding: 50px;
 }
 
 .quote {
@@ -129,4 +129,48 @@ button.sign {
   text-align: end;
   font-weight: bold;
   font-style: normal;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+}
+.textc {
+  border-radius: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 100px 40px 100px;
+  background-color: #3882f6;
+}
+.callt {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+.callr {
+  font-weight: normal;
+  margin: 0;
+  color: white;
+  font-size: 20px;
+}
+
+.buttons {
+  margin-left: 70px;
+}
+button.signn {
+  font-weight: bold;
+  background-color: #3882f6;
+  color: white;
+}
+
+.odin {
+  color: white;
+  padding: 30px;
+  background-color: #1f2937;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
