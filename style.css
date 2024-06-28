@@ -81,8 +81,8 @@ button.sign {
 .ten {
   display: flex;
   justify-content: center;
-  gap: 50px;
-  padding: 50px;
+  gap: 100px;
+  padding: 70px;
 }
 
 .textd {
@@ -95,12 +95,12 @@ button.sign {
 .box {
   border: 6px solid #3882f6;
   border-radius: 11px;
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
 }
 
 .den {
-  max-width: 200px;
+  max-width: 250px;
 }
 
 .cen {
