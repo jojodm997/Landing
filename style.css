@@ -93,8 +93,8 @@ button.sign {
 }
 
 .box {
-  border: 6px solid #3882f6;
-  border-radius: 11px;
+  border: 8px solid #3882f6;
+  border-radius: 14px;
   width: 250px;
   height: 250px;
 }
